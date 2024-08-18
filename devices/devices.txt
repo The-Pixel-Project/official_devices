@@ -7,7 +7,7 @@ d2s
 d2x
 f62
 spes
+garnet
 munch
 sky
 marble
-garnet
