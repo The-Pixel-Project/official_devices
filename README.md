@@ -7,7 +7,7 @@
 Are you interested in becoming part of our team of amazing maintainers? If so, feel free to apply in order to join us!
 
 ## To become a maintainer of The Pixel Project
-You must fulfill the following requirements:
+You must fulfill the following requirements:-
 - [Maintainers Requirements](https://github.com/The-Pixel-Project/official_devices/blob/14/docs/maintainers_requirements.md)
 - [Device Requirements](https://github.com/The-Pixel-Project/official_devices/blob/14/docs/device_requirements.md)
 - [Maintainers Code of Conduct](https://github.com/The-Pixel-Project/official_devices/blob/14/docs/maintainers_code_of_conduct.md)
