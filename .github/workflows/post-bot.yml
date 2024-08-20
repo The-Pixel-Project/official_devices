@@ -1,0 +1,45 @@
+name: Rom Poster Bot
+
+on:
+  push:
+    paths:
+      - "OTA/devices/*.json"
+  workflow_dispatch:
+
+env:
+  GitHubMail: "pixelprojectbot@gmail.com"
+  GitHubName: "Pixel-Project Bot"
+  GitHubToken: ${{ secrets.GH_TOKEN }}
+  BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+  CHAT_ID: ${{ secrets.CHAT_ID }}
+  PRIV_CHAT_ID: ${{ secrets.PRIV_CHAT_ID }}
+  PIXELPROJECT_VERSION_CHECK: ${{ secrets.PIXELPROJECT_VERSION_CHECK }}
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: sudo pip install pyTelegramBotAPI noobstuffs
+
+      - name: Set Git Configs & Secrets
+        run: |
+          git config --global user.email ${GitHubMail}
+          git config --global user.name ${GitHubName}
+          git config --global color.ui true
+          git config --global credential.helper store
+          echo "https://${GitHubName}:${GitHubToken}@github.com" > ~/.git-credentials
+
+      - name: Run RomPosterBot
+        run: sudo -E python3 .github/scripts/post.py
+
+      - name: Commit and Push Changes
+        run: | 
+          git fetch && git pull
+          COMMIT_MESSAGE=$(cat commit_mesg.txt)
+          rm commit_mesg.txt
+          git add . && git commit -sm "$COMMIT_MESSAGE"
+          git push origin
