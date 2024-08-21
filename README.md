@@ -4,7 +4,7 @@
 
 # Apply for maintainership
 
-Are you interested in becoming part of our team of amazing maintainers? If so, feel free to apply in order to join us!
+Are you interested in becoming part of our team of amazing maintainers? If so, feel free to apply in order to join us! 
 
 ## To become a maintainer of The Pixel Project
 You must fulfill the following requirements:
