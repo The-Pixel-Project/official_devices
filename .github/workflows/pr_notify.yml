@@ -17,13 +17,19 @@ jobs:
             sudo apt-get install jq -y &> /dev/null
             echo "PR_TITLE=$(jq --raw-output .pull_request.title ${GITHUB_EVENT_PATH})" >> ${GITHUB_ENV}
             echo "PR_URL=$(jq --raw-output .pull_request.html_url ${GITHUB_EVENT_PATH})" >>  ${GITHUB_ENV}
+        
         - name: Notify in Telegram
           run: |
             TgNotify() {
-              curl -s -X POST "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage" -d chat_id="${{ secrets.PRIV_CHAT_ID }}" \
-              -d parse_mode=Markdown \
-              -d text="${1}" \
-              -d disable_web_page_preview=true
+              local response=$(curl -s -X POST "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage" \
+                -d chat_id="${{ secrets.PRIV_CHAT_ID }}" \
+                -d parse_mode=Markdown \
+                -d text="${1}" \
+                -d disable_web_page_preview=true)
+              local message_id=$(echo "${response}" | jq -r '.result.message_id')
+              curl -s -X POST "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/pinChatMessage" \
+                -d chat_id="${{ secrets.PRIV_CHAT_ID }}" \
+                -d message_id="${message_id}"
             }
             
             TgNotify "
