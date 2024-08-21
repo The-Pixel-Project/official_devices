@@ -41,5 +41,6 @@ jobs:
           git fetch && git pull
           COMMIT_MESSAGE=$(cat commit_mesg.txt)
           rm commit_mesg.txt
+          curl -sL "https://raw.githubusercontent.com/hipexscape/Scripts/tsm/commit_id.sh" | bash
           git add . && git commit -sm "$COMMIT_MESSAGE"
           git push origin
