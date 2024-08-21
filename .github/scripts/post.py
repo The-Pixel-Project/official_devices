@@ -25,8 +25,10 @@ import telebot
 import os
 import json
 import datetime
+import re
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from time import sleep
+from github import Github
 from NoobStuffs.libtelegraph import TelegraphHelper
 
 # Get configs from workflow secrets
@@ -36,11 +38,22 @@ try:
     BOT_TOKEN = getConfig("BOT_TOKEN")
     CHAT_ID = getConfig("CHAT_ID")
     PRIV_CHAT_ID = getConfig("PRIV_CHAT_ID")
-    PIXELPROJECT_VERSION_CHECK = getConfig("PIXELPROJECT_VERSION_CHECK")
 except KeyError:
     print("Fill all the configs plox..\nExiting...")
     exit(0)
 
+# Get the version of PixelProject to check for updates
+def getPixelProjectVersion():
+    VENDOR_REPO = "The-Pixel-Project/vendor_aosp"
+    VERSION_PATH = "config/version.mk"
+    VERSION_REGEX = r"CUSTOM_PLATFORM_VERSION := (.*)"
+    g = Github(getConfig("GH_TOKEN"))
+    repo = g.get_repo(VENDOR_REPO)
+    content = repo.get_contents(VERSION_PATH).decoded_content.decode()
+    version = re.search(VERSION_REGEX, content).group(1) if re.search(VERSION_REGEX, content) else None
+    return version
+
+PIXELPROJECT_VERSION_CHECK = getPixelProjectVersion()
 BANNER_PATH = "./banners/t.png"
 
 # Init bot
