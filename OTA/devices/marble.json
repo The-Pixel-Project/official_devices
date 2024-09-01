@@ -1,12 +1,18 @@
 {
-  "response": [
-    {
-      "timestamp": 1723818126,
-      "filename": "PixelProject_marble-Official-1.1-1539-20240816.zip",
-      "md5": "213c09912236a525af1ef4c328854cbc",
-      "size": 2893155118,
-      "download": "https://sourceforge.net/projects/pixel-project/files/marble/PixelProject_marble-Official-1.1-1539-20240816.zip/download",
-      "version": "1.1"
-    }
-  ]
+        "response": [
+                {
+                        "maintainer": "",
+                        "oem": "",
+                        "device": "",
+                        "version": "1.1",
+                        "filename": "PixelProject_marble--1.1-1135-20240901.zip",
+                        "download": "https://sourceforge.net/projects/pixel-project/files/marble/PixelProject_marble--1.1-1135-20240901.zip/download",
+                        "timestamp": 1725190414,
+                        "md5": "f5c9428d60483a79563ab49e1239edad",
+                        "sha256": "04828ac50a5c19eb3e7f727ed29e42564f09ffe6c15375736bd9b7aaafe45c4c",
+                        "size": 2839512671,
+                        "forum": "",
+                        "telegram": ""
+                }
+        ]
 }

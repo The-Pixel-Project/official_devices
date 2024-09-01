@@ -6,6 +6,35 @@ Device maintainer: kenway214
 
 ## v1.1
 
+**Device Changelog 01.09.2024**
+
+- Fixed auto-brightness issue, ensuring the screen doesn't automatically brighten to max when unlocking, particularly in dark environments.
+- Resolved the issue where display saturation settings (Settings > Display > Display Saturation) are not applied after a device restart.
+- Switched to oneplus Dolby (Settings > Sound & Vibration > Dolby Atmos)
+- Enabled and fine-tuned Always-On Display (AOD) burn-in protection.
+- Fixed Wi-Fi display functionality.
+- Enabled support for Spatial Audio.
+- Migrated to Xiaomi IR AIDL.
+- Built open-source SoundTrigger HAL from source.
+- Compiled libsndcardparser from source.
+- Compiled libbatterylistener from source.
+- Built most AGM and PAL targets from source.
+- Compiled mtdservice interface library from source.
+- Switched to source-built Mlipay interface.
+- Built SoundDose interfaces from source.
+- Renamed "Xiaomi Parts" to "Xiaomi Settings" in the Parts module.
+- Updated SEPolicy to fix issues related to Xiaomi Parts.
+- Removed MiSound from the Parts module.
+- Improvement in doze mode
+- Tuned powerhint from AOSPA
+- Updated Dolby Atmos blobs from oneplus 9R
+- Updated perf blobs from AOSPA
+- Added Dolby volume listener and Dolby spatial audio support
+- Enable vonr in unsupported contries
+- fix some log spam
+- rebased trees and upstream kernel
+- Updated power hints for SM7450.
+
 **Device Changelog 16.08.2024**
 
 - Fix battery and USB OTG detection
