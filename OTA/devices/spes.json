@@ -1,12 +1,18 @@
 {
-  "response": [
-    {
-      "timestamp": 1723479675,
-      "filename": "PixelProject_spes-Official-1.1-1636-20240812.zip",
-      "md5": "04db59f40b6aab6d5ee3cdd921baa42a",
-      "size": 2293310720,
-      "download": "https://sourceforge.net/projects/pixel-project/files/spes/PixelProject_spes-Official-1.1-1636-20240812.zip/download",
-      "version": "1.1"
-    }
-  ]
+        "response": [
+                {
+                        "maintainer": "tanvirr007",
+                        "oem": "Xiaomi",
+                        "device": "Redmi Note 11/NFC",
+                        "version": "1.2",
+                        "filename": "PixelProject_spes-Official-1.2-0339-20240909.zip",
+                        "download": "https://sourceforge.net/projects/pixel-project/files/spes/PixelProject_spes-Official-1.2-0339-20240909.zip/download",
+                        "timestamp": 1725853106,
+                        "md5": "336f7d98f0989c055d8563d298405137",
+                        "sha256": "6efe98560c9b886b6eca91299bd452d3bdfcd25e491906d8e333218601add204",
+                        "size": 2180652944,
+                        "forum": "",
+                        "telegram": "https://t.me/tanvirr007"
+                }
+        ]
 }
