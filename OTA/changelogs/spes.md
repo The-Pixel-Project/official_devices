@@ -4,6 +4,39 @@ Device codename: spes
 Device maintainer: Tanvir
 ```
 
+# v1.2
+- Fixed Thumbnail Issues
+- Synced with latest source
+- Bootloader locked spoff
+- Device MEETS STRONG INTEGRITY
+- Android Security update September 2024
+- Reduced status bar padding again
+- Updated blobs from MIUI SPESNEEAGlobal V14.0.7.0 TGKEUXM
+- Dropped bootctl package
+- Changed default dexpreopt compiler filter to speed-profile
+- Removed reserved partition
+- Reverted back to old thermal settings
+- Added can-swap-width-height for video codecs
+- Enabled slow-cpu media_codecs
+- Disabled NFC service by default on non spes variant
+- Built some vendor modules for RIL and WFD
+- Built libaudioroute from source
+- Addressed powerhal denials on sepolicy
+- Removed quad mic
+- Corrected maximum microphone count
+- Added AUDIO CHANNEL IN STEREO to BT SCO Headset Mic
+- Added support for BT SCO mic for record 24 profile
+- Set correct channel mask for earpiece
+- Removed conditional for WfdCommon
+- Many more underhood changes
+
+# Notes:
+- Clean flash recommended
+- Signed build with priv keys
+- Flashing Guide [Telegram](https://telegra.ph/Flash-Rom-On-Redmi-Note-11-Spes--Spesn-07-04)
+- Thanks Nyao, Alberto and Yograt for testing
+- Thanks @CrDroidAndroid tree contributors for base trees
+
 # v1.1
 - Overlay improvement
 - Applied August Security Patch QPR3
