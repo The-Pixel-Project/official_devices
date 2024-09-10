@@ -1,0 +1,18 @@
+{
+        "response": [
+                {
+                        "maintainer": "rmdn.",
+                        "oem": "Xiaomi",
+                        "device": "POCO X6 5G / Xiaomi Redmi Note 13 Pro 5G",
+                        "version": "1.2",
+                        "filename": "PixelProject_garnet-Official-1.2-0245-20240910.zip",
+                        "download": "https://sourceforge.net/projects/pixel-project/files/garnet/PixelProject_garnet-Official-1.2-0245-20240910.zip/download",
+                        "timestamp": 1725936261,
+                        "md5": "659bc5f271976df264104d1a9a0699c1",
+                        "sha256": "3ca18f4f7ab880302a97adf3f42bb8b1af8d8130686a1c824297026290270647",
+                        "size": 2722451591,
+                        "forum": "",
+                        "telegram": "https://t.me/ramaadni"
+                }
+        ]
+}
