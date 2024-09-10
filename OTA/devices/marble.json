@@ -1,0 +1,18 @@
+{
+        "response": [
+                {
+                        "maintainer": "kenway214",
+                        "oem": "Xiaomi",
+                        "device": "Xiaomi POCO F5 5G / Xiaomi Redmi Note 12 Turbo",
+                        "version": "1.2",
+                        "filename": "PixelProject_marble-Official-1.2-1359-20240910.zip",
+                        "download": "https://sourceforge.net/projects/pixel-project/files/marble/PixelProject_marble-Official-1.2-1359-20240910.zip/download",
+                        "timestamp": 1725976681,
+                        "md5": "97c0e5c10af01d5811199a81452e76e9",
+                        "sha256": "3e45d11cf6be4a8e2687a21c3fc678e067088c4758d6ecc9373f292ec06ba4db",
+                        "size": 2889009335,
+                        "forum": "",
+                        "telegram": "https://t.me/ph12nex"
+                }
+        ]
+}
