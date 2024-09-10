@@ -1,5 +1,17 @@
 # Source Changelog #
 
+## v1.2 ##
+- Merged September Security Patch
+- Added Support for Pocket Mode
+- Improvements in PixelPropsUtils
+- Update Spoofing to Pixel 9 series
+- Major PlayIntegrity Fixes: STRONG Passes by default
+- Updated PixelProps components
+- Minor Bug Fixes and improvements
+- Disabled Tensor specific configs
+- Locked BL Spoof for TEE Fixed devices
+- Improved Performance and Optimization
+
 ## v1.1 ##
 - Merged August Security Patch
 - Add Auto-Brightness Button in QS
