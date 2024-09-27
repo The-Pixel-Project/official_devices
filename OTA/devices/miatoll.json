@@ -1,0 +1,18 @@
+{
+        "response": [
+                {
+                        "maintainer": "iHSAN x Frost",
+                        "oem": "Xiaomi",
+                        "device": "Redmi Note 9S/Redmi Note 9 Pro/Redmi Note 10 Lite/Redmi Note 9 Pro Max/Poco M2 Pro",
+                        "version": "1.2",
+                        "filename": "PixelProject_miatoll-Official-1.2-0050-20240927.zip",
+                        "download": "https://sourceforge.net/projects/pixel-project/files/miatoll/PixelProject_miatoll-Official-1.2-0050-20240927.zip/download",
+                        "timestamp": 1727398159,
+                        "md5": "71fb07e5f03929731c4725fe3d41accc",
+                        "sha256": "7cb922608db7a9a53e33f49b3f06a70111d31e67719fc5d7c5dd3e594241cec9",
+                        "size": 2496376167,
+                        "forum": "",
+                        "telegram": "https://t.me/FujitoraSakusei"
+                }
+        ]
+}
