@@ -6,6 +6,15 @@ Device maintainer: kenway214
 
 ## v1.2
 
+**Device Changelog 29.09.2024**
+
+- Added Dolby Vision support
+- Enabled hbm during HDR and Vision Contents
+- Fixed Netflix DRM
+- Fixed USB otg
+- Fixed USB tethering
+- Updated PIF : device certified by default
+
 **Device Changelog 10.09.2024**
 
 - Fixed auto-brightness issue, ensuring the screen doesn't automatically brighten to max when unlocking, particularly in dark environments.
