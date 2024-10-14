@@ -1,5 +1,10 @@
 # Source Changelog #
 
+## v1.3 ##
+- Merged October Patch (credits: [Lineage OS](https://github.com/lineageos))
+- Updated Wallpaper (credits: [Kshitij](https://t.me/Stock_Sucks))
+- Improved Performance and Optimizations
+
 ## v1.2 ##
 - Merged September Security Patch
 - Added Support for Pocket Mode
