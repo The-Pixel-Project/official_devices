@@ -4,6 +4,11 @@ Device codename: garnet
 Device maintainer: rmdn.
 ```
 
+# v1.3
+- Enable VoNR Calls support
+- Update blobs and kernel from V816.0.12.0.UNRMIXM
+- Fixed video filter on MiuiCamera
+
 # v1.2
 - Add touch improvements props
 - Switch to SkiaGL as HWUI renderer
