@@ -1,8 +1,34 @@
  ```
 Device name: Redmi Note 11 / NFC
 Device codename: spes
-Device maintainer: Tanvir
+Device maintainer: Tanvir Hasan
 ```
+
+# v1.3
+- Rework thermal
+- Added new props
+- Setup DeviceAsWebcam
+- Remove cr_config.xml
+- Use AOSP FLAC decoder
+- Disable camera perflock
+- Specify vendor.usb.device
+- Limit screen recording to 60fps
+- Address Maxim IC suspend policies
+- Cleanup Maxim battery verify wakeup
+- Migrate sensor HAL to AIDL interface
+- Rebase entire Device and Vendor Tree
+- Cleanup FPC fingerprint wakeup labels
+- Move some Bluetooth properties to system
+- Fix mialogocontrol patch when extracting blobs
+- Add and increase 5 GHz network signal tolerance
+- Many more underhood changes
+
+# Notes:
+- Flashing Guide [Telegram](https://telegra.ph/Flash-Rom-On-Redmi-Note-11-Spes--Spesn-07-04)
+- Signed build with priv keys
+- Thanks Sayan for server
+- Thanks Sam, N-EX and Yograt for testing
+- Thanks @CrDroidAndroid tree contributors for base trees
 
 # v1.2
 - Fixed Thumbnail Issues
