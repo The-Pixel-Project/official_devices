@@ -6,11 +6,11 @@ Exceptions can be requested by contacting the Core Team.
 
 - The device **MUST** use an ARM 64-Bit software base.
 
-- The device **MUST** have 6 GB of RAM or more.
+- The device **MUST** have 4 GB of RAM or more.
 
 - The device **MUST** utilize a kernel based on version 4.4 with eBPF and binder backports, or newer versions of the Linux Kernel.
 
-- The device **MUST** have a minimum of 128 GB of internal storage. Expansions via SD Cards **SHALL NOT** count towards this requirement.
+- The device **MUST** have a minimum of 64 GB of internal storage. Expansions via SD Cards **SHALL NOT** count towards this requirement.
 
 - The device **MUST** have a minimum of approximately 9 GB of dedicated storage for the system partition, taking into account proper storage optimizations. 'RemovePackages' **SHALL NOT** be considered as such.
 
