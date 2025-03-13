@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/The-Pixel-Project/official_devices/14/banners/TPPGithub.png" />
+  <img src="https://github.com/The-Pixel-Project/official_devices/blob/15.1/banners/TPPGithub.png" />
 </p>
 
 # Apply for maintainership
