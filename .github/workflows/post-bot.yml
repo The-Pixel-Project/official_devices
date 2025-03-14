@@ -43,4 +43,4 @@ jobs:
           rm commit_mesg.txt
           curl -sL "https://raw.githubusercontent.com/hipexscape/Scripts/tsm/commit_id.sh" | bash
           git add . && git commit -sm "$COMMIT_MESSAGE"
-          git push origin
+          git push origin 15.1

@@ -166,7 +166,7 @@ def message_content(information):
     msg += f"ℹ️ Version: <b>{information['version']}</b>\n"
     msg += f"📆 Build date: <b>{information['datetime']}</b>\n"
     msg += f"📂 Size: <b>{information['size']}GB</b>\n"
-    msg += f"📝 <a href='https://github.com/The-Pixel-Project/official_devices/blob/fourteen-qpr3/OTA/changelogs/{information['''codename''']}.md'>Changelog</a>\n"
+    msg += f"📝 <a href='https://github.com/The-Pixel-Project/official_devices/blob/15.1/OTA/changelogs/{information['''codename''']}.md'>Changelog</a>\n"
     msg += f"⬇️ <a href='{information['download']}'>Download now</a>\n\n"
     msg += f"💬 <a href='https://t.me/ThePixelProjectChat'>View discussion</a>"
     return msg
