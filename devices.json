@@ -5,5 +5,12 @@
         "status": "active",
         "maintainer": "rgb_tiIt",
 	"support": "MotoG5GOfficial"
+    },
+    "peridot": {
+        "code": "peridot",
+        "name": "POCO F6",
+        "status": "active",
+        "maintainer": "ph12nex",
+        "support": "pandemonium_haydn"
     }
 }
