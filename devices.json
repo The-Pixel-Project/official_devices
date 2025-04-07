@@ -26,5 +26,12 @@
         "status": "active",
         "maintainer": "ZirgomHaidar",
         "support": "tppPantah"
+    },
+    "miatoll": {
+        "code": "miatoll",
+        "name": "POCO M2 Pro / Redmi Note (9S/Pro/Pro Max/10 Lite)",
+        "status": "active",
+        "maintainer": "ZirgomHaidar",
+        "support": "tppMiatoll"
     }
 }
