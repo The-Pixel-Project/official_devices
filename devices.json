@@ -12,5 +12,19 @@
         "status": "active",
         "maintainer": "ph12nex",
         "support": "pandemonium_haydn"
+    },
+    "panther": {
+        "code": "panther",
+        "name": "Google Pixel 7",
+        "status": "active",
+        "maintainer": "ZirgomHaidar",
+        "support": "tppPantah"
+    },
+    "cheetah": {
+        "code": "cheetah",
+        "name": "Google Pixel 7 Pro",
+        "status": "active",
+        "maintainer": "ZirgomHaidar",
+        "support": "tppPantah"
     }
 }
