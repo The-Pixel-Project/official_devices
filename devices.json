@@ -33,5 +33,12 @@
         "status": "active",
         "maintainer": "ZirgomHaidar",
         "support": "tppMiatoll"
+    },
+    "lavender": {
+        "code": "lavender",
+        "name": "Redmi Note 7/7s",
+        "status": "active",
+        "maintainer": "Aeoniixx",
+        "support": "AeoniixxAOSP"
     }
 }
