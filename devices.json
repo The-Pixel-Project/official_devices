@@ -5,5 +5,12 @@
         "status": "active",
         "maintainer": "rgb_tiIt",
 	"support": "idk_whenever_you_wake_changeit"
+    },
+    "lavender": {
+        "code": "lavender",
+        "name": "Redmi Note 7/7s",
+        "status": "active",
+        "maintainer": "Aeoniixx",
+        "support": "AeoniixxAOSP"
     }
 }
