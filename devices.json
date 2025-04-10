@@ -40,5 +40,12 @@
         "status": "active",
         "maintainer": "Aeoniixx",
         "support": "AeoniixxAOSP"
+    },
+    "marble": {
+        "code": "marble",
+        "name": "POCO F5 / Redmi Note 12 Turbo",
+        "status": "active",
+        "maintainer": "SharmagRit",
+        "support": "marble_builds"
     }
 }
