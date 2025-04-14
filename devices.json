@@ -47,5 +47,12 @@
         "status": "active",
         "maintainer": "SharmagRit",
         "support": "marble_builds"
+    },
+    "sweet": {
+        "code": "sweet",
+        "name": "Redmi Note 10 Pro",
+        "status": "active",
+        "maintainer": "Jan",
+        "support": "TTPSweet"
     }
 }
