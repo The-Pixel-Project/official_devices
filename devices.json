@@ -54,5 +54,12 @@
         "status": "active",
         "maintainer": "Jan",
         "support": "TTPSweet"
+	},
+    "garnet": {
+        "code": "garnet",
+        "name": "Poco X6 5G/ Redmi Note 13 Pro 5G",
+        "status": "active",
+        "maintainer": "SenseiDev",
+        "support": "garnetromsupport"
     }
 }
