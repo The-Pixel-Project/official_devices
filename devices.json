@@ -62,4 +62,11 @@
         "maintainer": "senseideveloper",
         "support": "garnetromsupport"
     }
+    "fuxi": {
+        "code": "fuxi",
+        "name": "Xiaomi 13",
+        "status": "active",
+        "maintainer": "xt0032rus",
+        "support": "xiaomi13roms"
+    }
 }
