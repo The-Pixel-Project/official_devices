@@ -9,3 +9,23 @@
 - Fixed AOD animation
 - Support for display saturation, color profiles, screen refresh rate, and thermal profiles is enabled
 - Improve more stability (RAM, Graphics and etc.)
+
+## 28-04-25 ##
+
+- April security patch
+- Fixed some audio issues 
+- Fixed notification sound 
+- Fixed facebook reels
+- Fix screen record lag
+- Logging is disabled
+- Increase the volume of the speaker, microphone, speaker, headphones
+- Fixes top speaker on Lockscreen and also for apps like Telegram
+- Improved the smoothness of the user interface
+- Disable location by default
+- Disable bluetooth by Default
+- Switch to Xiaomi Vibrator
+- Switch to ViperFX 
+- Switch to SkiaGL
+- Added BCR support 
+- Added Dolby Vision support
+- Improve more stability
