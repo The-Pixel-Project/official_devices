@@ -61,5 +61,12 @@
         "status": "active",
         "maintainer": "senseideveloper",
         "support": "garnetromsupport"
+    },
+     "redwood": {
+         "code": "redwood",
+         "name": "Poco X5 Pro 5G/Redmi Note 12 Pro Speed",
+         "status": "active",
+         "maintainer": "Thereache",
+         "support": "thereachebuildchat"
     }
 }
