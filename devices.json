@@ -68,5 +68,12 @@
          "status": "active",
          "maintainer": "Thereache",
          "support": "thereachebuildchat"
+    },
+    "fuxi": {
+        "code": "fuxi",
+        "name": "Xiaomi 13",
+        "status": "active",
+        "maintainer": "xt0032rus",
+        "support": "xiaomi13roms"
     }
 }
