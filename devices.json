@@ -75,5 +75,12 @@
         "status": "active",
         "maintainer": "xt0032rus",
         "support": "xiaomi13roms"
+    },
+     "m52xq": {
+         "code": "m52xq",
+         "name": "Samsung Galaxy M52 5G",
+         "status": "active",
+         "maintainer": "tilt-rgb",
+         "support": "m52development"
     }
 }
