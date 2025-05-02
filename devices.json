@@ -82,5 +82,12 @@
          "status": "active",
          "maintainer": "tilt-rgb",
          "support": "m52development"
+    },
+     "vili": {
+         "code": "vili",
+         "name": "Xiaomi 11T Pro",
+         "status": "active",
+         "maintainer": "0mar",
+         "support": "ViliSupport"
     }
 }
