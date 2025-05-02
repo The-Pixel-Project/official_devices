@@ -1,3 +1,10 @@
+## 02-05-25
+
+- gs201: Avoid scheduling kswapd on high-performance cores
+- gs201: Avoid scheduling kcompactd on high-performance core
+- gs201: overlay: Disable post-illumination UDFPS scanning delay
+- gs201: avoid swappiness as much as possible
+
 ## 06-04-25
 
 - Initial A15 Release QPR2 march security patch.
