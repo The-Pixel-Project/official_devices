@@ -1,3 +1,10 @@
+## 02-05-25 ##
+
+- Fix Vibrator
+- Fix Display Cutout
+- Delete MiuiCamera
+- Delete Dolby
+
 ## 28-04-25 ##
 
 - Fix NFS
