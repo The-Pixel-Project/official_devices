@@ -1,3 +1,18 @@
+## 07-05-25 ##
+
+- May security patch
+- Disable QCRIL power saving
+- Drop support for Dolby Vision
+- QPower + Deepsleep mode enabled
+- Enable adaptive suspend
+- Fix audio stuttering
+- Improved scrolling and responsiveness
+- Improved tactile vibration response
+- Fix audio routing issues in VoIP using the monitoring service
+- Fixes crackling noise while playing some sounds
+- Included KSU kernel
+- Improve more stability
+
 ## 28-04-25 ##
 
 - April security patch
