@@ -1,3 +1,17 @@
+## 18-05-25 ##
+
+- May security patch
+- Disable QCRIL power saving
+- Enable Dolby Vision support in hwcomposer
+- QPower + Deepsleep mode enabled
+- Fix audio stuttering
+- Improved scrolling and responsiveness
+- Fixed vibration
+- Fixed VoIP, WhatsApp call
+- Fixed crackling noise while playing some sounds
+- Included KSU kernel
+- Improve more stability
+
 ## 28-04-25 ##
 
 - April security patch
