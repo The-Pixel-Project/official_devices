@@ -1,3 +1,45 @@
+## 17-05-25
+
+
+- Latest source changes
+- May security patch (QPR2) ,HyperOS 2 based
+- Move Lineage Health HAL to select()
+- Set libinit via soong config
+- Add libwfdservice_shim for WFD
+- Parts: Refactor touchsampling code (touch sampling now 500 tsr)
+- Fixed focaltech panels touch not working ( audio still dead fs19xx audio drivers)
+- Enable sofod using stock kernel node
+- Build udfps sensor from hardware xiaomi
+- Switched to stock kernel Hyper OS2.0.102.0.VNPMIXM
+- fstab: Switch to erofs
+- Drop full qti perf hal stack
+- Improved active drain
+- Migrate to common libqti-perfd-client and power-libperfmgr
+- Inherit dummy powerhint config
+- Inital powerhint for cliff platform (credit: @ahmed_tohamy)
+- utilize task_profiles.json + cgroups.json
+- sepolicy: Allow libperfmgr to write on /proc & sysfs
+- Optimize cpu up_rate_limit and down_rate_limit
+- Register and enable qcrild & data services
+- Add missing layer buffer slots cache clear property
+- Enable frame pacing
+- Fix the battery drain due to statsd
+- Patch algo jni lib to use correct Surface::connect method
+- Add Ultra HDR heic configurations to StreamConfigurationMap constructor
+- ICustomCaptureResult: Add readout timestamp
+- Add Soong namespace imports for required hardware components 
+- Enable volume set param for compressed, pcm offload and voip streams
+- Use separate calibration for bluetooth a2dp low latency 
+- audio: Use EC enabled streams for hotword capture and single mic in lp mode
+- Align CPU frequency values and entries with corrected hardware frequencies
+- udfps: Notify HAL on both FOD press and release events
+- udfps: Disable local HBM immediately on successful auth
+- Updated and patched dolby blobs
+- Fixed Dolby atmos crashed issue
+- Powertools fixed cpu boost freq not loading correctly
+- Fixed jittery Ui due to cpu freq mismatch with powerprofiles
+- powerprofile optimise gaming profile
+
 ## 27-04-25
 
 -   April security patch
