@@ -1,3 +1,7 @@
+## 20-05-25
+
+- pantah: Update fingerprint/build description from BP1A.250505.005.B1
+
 ## 02-05-25
 
 - gs201: Avoid scheduling kswapd on high-performance cores
