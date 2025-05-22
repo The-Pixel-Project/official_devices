@@ -1,3 +1,9 @@
+## 22-05-25 ##
+
+- Synced with letest source V2.2 (may patch)
+- Add MiuiCamera
+- Add XiaomiDolby
+
 ## 02-05-25 ##
 
 - Fix Vibrator
