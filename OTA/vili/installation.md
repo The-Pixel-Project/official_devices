@@ -16,7 +16,7 @@ fastboot flash vendor_boot vendor_boot.img
 ```
 fastboot flash dtbo dtbo.img
 ```
-Flash the boot image:
+* Flash the boot image:
 
 ```
 fastboot flash boot boot.img
@@ -31,7 +31,7 @@ fastboot reboot recovery
 * Sideload the ROM:
 
 ```
-adb sideload The-Pixel-Project.zip (replace "The-Pixel-Project" with actual filename)
+adb sideload The-Pixel-Project.zip (replace "The-Pixel-Project" with the actual filename)
 ```
 * Reboot to recovery to sideload any add-ons (e.g., Magisk, Firmware etc).
 * Finally, reboot to the system.
