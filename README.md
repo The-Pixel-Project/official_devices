@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/The-Pixel-Project/official_devices/blob/15/2.1Banner.png" />
+  <img src="https://github.com/The-Pixel-Project/official_devices/blob/15/2.2banner.jpg" />
 </p>
 
 # Apply for maintainership
