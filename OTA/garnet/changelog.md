@@ -1,3 +1,19 @@
+## 26-05-25 ##
+
+- May security patch
+- QPower + Deepsleep mode enabled
+- Fix audio stuttering
+- Improved scrolling and responsiveness
+- Disable vsync for CPU rendered Apps
+- Enable QTI Memory Optimization
+- Switch to QTI power HAl
+- Fix vibration haptics
+- Fix audio VoIP, WhatsApp call
+- Fixes crackling noise while playing some sounds
+- Decouple auto-suspend and interactive state from display
+- Included KSU kernel
+- Improve more stability
+
 ## 18-05-25 ##
 
 - May security patch
