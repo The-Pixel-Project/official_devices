@@ -1,5 +1,53 @@
-## 17-05-25
+## 01-06-25
 
+
+- Latest source changes
+- May security patch (QPR2) ,HyperOS 2 based
+- Updated blobs from OS2.0.103.0.VNPMIXM
+- Updated firmware from OS2.0.102.0.VNPMIXM
+- Dropped firmware from rom zip
+- touchsampling: Add per app high touch sampling support
+- touchsampling: Refactor and dropped all old mothods
+- powertools: Introduce per-app power profile support and bump version to v6
+- powertools: Tuned Balanced , Gameboost , performance profile for case specific scnerios
+- powertools: Balanced: sustained lower clock if high demand process for better sustained battery ,hooked with libperfmanager
+- powertools: Gameboost: Added lauchboost , load priority, cache management for apps using game boost powerprofile
+- powertools: performance: using mgame sconfig thermal fallback ,hooked with libperfmanager for sustained high performance without much heating
+- powertools: Batterysaver: added seperate toggle weather to enable android system battery saver when this power profile is set
+- thermalprofile: Dropped per app thermal profile
+- GameBar: Introduce Ram temp and Ram clock speed overlay
+- GameBar: Create gamebargesturehandler to address all Gestures
+- GameBar: Refactor and bump version to v6
+- Revert "peridot: parts: Introduce RefreshRateService to enforce 120Hz on screen wake events"
+- Revert "peridot: parts: Introduce RefreshRate QS tile"
+- TurboCharging: Consolidated turbo and sports mode logic into applyAllSettings()
+- TurboCharging: Simplified BootReceiver by offloading logic to TurboChargingUtil
+- TurboCharging: Introduced ChargerReceiver to re-apply settings on POWER_CONNECTED
+- TurboCharging: Updated QS tile to re-apply both turbo and sports modes on toggle
+- Add support for 60Hz in Landscape in per app refresh rate
+- Dropped config_autoBrightnessAdjustmentMaxGamma
+- Introduce RefreshRateService to enforce 120Hz on screen wake events (attempt to fix 30Hz bug when using adaptive refrest rate, after unlock 30hz bug may be there for 1 sec if this happenes service will trigger and correct itselt to 120Hz within next sec.so device will not stuck at 30Hz)
+- Touchfeature: Intoducing Xiaomi touch control via ITouchFeature aidl (settings/display/Touch control)
+- Touchfeature: Refactors the initialization logic for Double Tap to Wake and SoFOD features into standalone services—DoubleTapService and SoFodTouchService.
+- Touchfeature: DoubleTapService registers a content observer for the DOUBLE_TAP_TO_WAKE setting and applies the corresponding touch mode via ITouchFeature 14
+- Touchfeature: SoFodTouchService enables SoFOD-related touch modes via ITouchFeature 10 11 16
+- Touchfeature: Minor cleanup and improved logic and logspam
+- Enable Client Composition Cache
+- udfps: Enable HBM via disp_feature
+- udfps: Defer extCmd until fod ui is ready
+- udfps: Drop unnecessary setFingerDown on cancel
+- udfps: Fix wrong udfps debugging
+- udfps: Avoid partial reads on disp_feature
+- udfps: Fix stack memory address return in UdfpsHandler
+- udfps: Disable lhbm when authentication is finished
+- udfps: Disable lhbm on most acquired events
+- init: Give proper permissions for /dev/mhi_*_pipe_4 
+- Enable HWUI adpf
+- Import missing feature_enabler_client.rc
+- fstab: Switch to ext4
+
+
+## 17-05-25
 
 - Latest source changes
 - May security patch (QPR2) ,HyperOS 2 based
