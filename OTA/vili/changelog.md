@@ -1,10 +1,11 @@
-# Changelog - May 23, 2025
+# Changelog - June 01, 2025
 
 ## Device:
-- Fixed all voice call and voice message audio issues in apps like whatsapp and telegram
-- powerhint: Automatically disable prime core on battery saver mode
-- powerhint: Limit cpu and gpu frequencies on battery saver mode
+- Switched back to QTI perf stack
+- Enabled VoLTE and VoWifi by default for every carrier
+- Added Wifi-Only option to VoWifi preferences
+- Downgraded blobs and firmware to V816.0.11.0.UKDMIXM
 
 ## Kernel:
 * KSU Next and susfs are supported as a separate KSUboot.img, credits to @kknixx. This is available in the downloads folder along with flashing instructions
-- Fixed vowifi on kernel 5.4.290
+- Upstreamed the kernel to 5.4.292 with the latest changes from Lineage
