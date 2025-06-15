@@ -96,5 +96,12 @@
          "status": "active",
          "maintainer": "Yogratdesuyo",
          "support": "YogratSupport"
+    },
+     "rubyx": {
+         "code": "rubyx",
+         "name": "Xiaomi Redmi Note 12 Pro/ Pro+ 5G/ Discovery Edition",
+         "status": "active",
+         "maintainer": "Aeron",
+         "support": "aeronsbuilds"
     }
 }
