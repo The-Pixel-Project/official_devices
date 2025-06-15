@@ -89,5 +89,12 @@
          "status": "active",
          "maintainer": "Omar99A",
          "support": "ViliSupport"
+    },
+     "spes": {
+         "code": "spes",
+         "name": "Xiaomi Redmi Note 11/NFC",
+         "status": "active",
+         "maintainer": "Yogratdesuyo",
+         "support": "YogratSupport"
     }
 }
