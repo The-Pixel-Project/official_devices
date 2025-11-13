@@ -51,7 +51,7 @@
     "sweet": {
         "code": "sweet",
         "name": "Redmi Note 10 Pro",
-        "status": "active",
+        "status": "inactive",
         "maintainer": "Jan",
         "support": "TTPSweet"
     },
